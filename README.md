@@ -2,6 +2,8 @@
 
 This extension contains functions to help students perform the projects and activities proposed in the [Inventura](https://www.positivoteceduc.com.br/inventura/) books (eg: a function to calculate heat index, given air temperature and humidity).
 
+To import this extension, go to Advanced -> +Extension and enter "Inventura" in the search box, or copy/paste [https://github.com/assirati/pxt-inventura/](https://github.com/assirati/pxt-inventura/) into the search box. Press enter and click the extension.
+
 ![img_0001](https://user-images.githubusercontent.com/2685426/64482296-8fa18300-d1c5-11e9-92b4-a3868838c15b.jpg)
 
 [Inventura](https://www.positivoteceduc.com.br/inventura/) is an educational solution designed to turn children into inventors, making programming learning an easy, immersive and stimulating experience. It has different volumes for elementary students.
