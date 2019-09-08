@@ -9,8 +9,8 @@
     "files": [
         "README.md",
         "main.ts",
-		"_locales/pt/pxt-inventura-strings.json",
-		"_locales/pt/pxt-inventura-jsdoc-strings.json"
+        "_locales/pt/pxt-inventura-strings.json",
+        "_locales/pt/pxt-inventura-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
