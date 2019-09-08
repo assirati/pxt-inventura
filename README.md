@@ -16,7 +16,7 @@ The Heat Index blocks calculates the [heat index](https://en.wikipedia.org/wiki/
 
 ![snip_20190907232009](https://user-images.githubusercontent.com/2685426/64482321-240be580-d1c6-11e9-84a7-28e21f005112.png)
 
-The first block receives air humidity (given in %) and temperature in celsius (° C), returning the heat index also in celsius (° C). The second block uses the temperature in fareinheigh (° F) and calculates the index also in fareinheigh (° F).
+The first block receives air humidity (given in %) and temperature in celsius (°C), returning the heat index also in celsius (°C). The second block uses the temperature in fareinheigh (°F) and calculates the index also in fareinheigh (°F).
 
 For both blocks, the air humidity must be between 0% and 100%.
 
