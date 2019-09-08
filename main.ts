@@ -1,4 +1,4 @@
-//% color="#22AA8D"
+//% color="#22AA8D" icon="\uf02d"
 namespace inventura {
 
     /**
