@@ -27,7 +27,7 @@ namespace inventura {
             }
         }
         heatIndex = (heatIndex - 32) / 1.8;
-        return heatIndex;
+        return Math.round(heatIndex);
     }
 
     /**
@@ -54,6 +54,6 @@ namespace inventura {
                 }
             }
         }
-        return heatIndex;
+        return Math.round(heatIndex);
     }
 }
