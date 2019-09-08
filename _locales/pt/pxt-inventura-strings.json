@@ -1,6 +1,6 @@
 {
-  "inventura.heatIndexC|block": "Índice de Calor (°C) Temp. = $tempC Umid. = $relHum",
-  "inventura.heatIndexF|block": "Índice de Calor(°F) Temp. = $tempF Umid. = $relHum",
+  "inventura.heatIndexC|block": "índice de Calor (°C) Temp. = $tempC Umid. = $relHum",
+  "inventura.heatIndexF|block": "índice de Calor(°F) Temp. = $tempF Umid. = $relHum",
   "inventura|block": "inventura",
   "{id:category}Inventura": "Inventura"
 }
