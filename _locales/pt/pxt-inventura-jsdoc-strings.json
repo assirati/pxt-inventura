@@ -1,0 +1,8 @@
+{
+  "inventura.heatIndexC": "Calcula o índice de calor (em °C), com base na temperatura (em °C) e na umidade do ar.",
+  "inventura.heatIndexC|param|relHum": "umidade do ar (in %), eg: 0",
+  "inventura.heatIndexC|param|tempC": "temperatura (in °C), eg: 0",
+  "inventura.heatIndexF": "Calcula o índice de calor (em °F), com base na temperatura (em °F) e na umidade do ar.",
+  "inventura.heatIndexF|param|relHum": "umidade do ar (in %), eg: 0",
+  "inventura.heatIndexF|param|tempF": "temperatura (in °F), eg: 0"
+}
