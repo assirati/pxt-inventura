@@ -14,13 +14,13 @@ This extension contains functions to help students perform the projects and acti
 
 The Heat Index blocks calculates the [heat index](https://en.wikipedia.org/wiki/Heat_index) based on temperature and air humidity.
 
-![snip_20190907232009](https://user-images.githubusercontent.com/2685426/64482321-240be580-d1c6-11e9-84a7-28e21f005112.png)
+![snip_20190907232009](https://user-images.githubusercontent.com/2685426/64488471-d1aae300-d21e-11e9-9beb-9f396b7f5b50.png)
 
 The first block receives air humidity (given in %) and temperature in celsius (°C), returning the heat index also in celsius (°C). The second block uses the temperature in fareinheigh (°F) and calculates the index also in fareinheigh (°F).
 
 For both blocks, the air humidity must be between 0% and 100%.
 
-![microbit-screenshot (2)](https://user-images.githubusercontent.com/2685426/64482463-d0e76200-d1c8-11e9-9ba3-2257c3e8f6fa.png)
+![microbit-screenshot (3)](https://user-images.githubusercontent.com/2685426/64488481-e5564980-d21e-11e9-9b7d-e389770c7d82.png)
 
 ```blocks
 basic.forever(function () {
