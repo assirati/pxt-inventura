@@ -6,7 +6,7 @@ namespace inventura {
     * @param tempC temperature (in °C), eg: 0
     * @param relHum air humidity (in %), eg: 0
     */
-    //% block="Heat Index (°C) Temp. = $tempC Humid. = $relHum"
+    //% block="heat index (°C) Temp. = $tempC Humid. = $relHum"
     //% relHum.min=0 relHum.max= 100 relHum.defl=0
     export function heatIndexC(tempC: number, relHum: number): number {
         let tempF, heatIndex;
@@ -35,7 +35,7 @@ namespace inventura {
     * @param tempF temperature (in °F), eg: 0
     * @param relHum air humidity (in %), eg: 0
     */
-    //% block="Heat Index (°F) Temp. = $tempF Humid. = $relHum"
+    //% block="heat index (°F) Temp. = $tempF Humid. = $relHum"
     //% relHum.min=0 relHum.max= 100 relHum.defl=0
     export function heatIndexF(tempF: number, relHum: number): number {
         let HIC, heatIndex;
