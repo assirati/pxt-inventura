@@ -3,8 +3,7 @@
     "version": "0.0.6",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
@@ -17,5 +16,5 @@
     ],
     "public": false,
     "preferredEditor": "tsprj",
-    "installedVersion": "workspace:133cc982-4736-4086-07a2-b1ed1dd1790d"
+    "installedVersion": "workspace:ed2cc277-9a53-471b-baf4-90927a04d97a"
 }

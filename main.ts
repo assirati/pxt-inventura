@@ -7,8 +7,9 @@ namespace inventura {
     * @param relHum air humidity (in %), eg: 0
     */
     //% block="heat index (°C) Temp. = $tempC Humid. = $relHum"
-    //% relHum.min=0 relHum.max= 100 relHum.defl=0
+    //% relHum.min=0 relHum.max=100 relHum.defl=0
     export function heatIndexC(tempC: number, relHum: number): number {
+        relHum = Math.clamp(0, 100, relHum | 0);
         let tempF, heatIndex;
         tempF = ((tempC * 1.8) + 32);
         if (tempF <= 32) {
@@ -36,7 +37,7 @@ namespace inventura {
     * @param relHum air humidity (in %), eg: 0
     */
     //% block="heat index (°F) Temp. = $tempF Humid. = $relHum"
-    //% relHum.min=0 relHum.max= 100 relHum.defl=0
+    //% relHum.min=0 relHum.max=100 relHum.defl=0
     export function heatIndexF(tempF: number, relHum: number): number {
         let HIC, heatIndex;
         if (tempF <= 32) {
